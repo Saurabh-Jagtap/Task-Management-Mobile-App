@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# 📱 Task Management UI (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is my first mobile app built using React Native with Expo.
 
-## Get started
+What started as a simple tutorial project quickly turned into a deeper learning experience when I began implementing features on my own.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- 📂 Filter tasks (To-do / In Progress / Done)
+- 📌 Sticky header behavior
+- 🔄 Dynamic task list rendering
+- 📄 Task detail screen with navigation
+- 🎯 Clean and structured mobile UI
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧠 Key Learnings
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- UI is not just about components — it’s about **layout systems**
+- Handling **scroll behavior** (sticky headers) requires understanding structure
+- Navigation is about **data flow**, not just screen switching
+- Small UI issues (spacing, wrapping, alignment) require **systematic thinking**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## ⚠️ Challenges Faced
 
-When you're ready, run:
+- Implementing sticky headers correctly inside scroll containers  
+- Managing layout and spacing consistency across screens  
+- Handling navigation params and data safely  
+- Debugging UI issues like text overflow and alignment  
+
+---
+
+## 🛠️ Tech Stack
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+
+---
+
+## 📸 Demo
+
+<!-- Add your video or screenshots here -->
+
+---
+
+## 📦 Getting Started
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📌 Project Status
 
-To learn more about developing your project with Expo, look at the following resources:
+This is currently a UI-focused prototype (no backend or persistent storage yet).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Planned Improvements
+Add task creation/edit/delete
+Persist data using AsyncStorage
+Improve interactions and animations
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🙌 Acknowledgement
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Built as part of a tutorial by Suraj Sir (ChaiCode), with additional features implemented independently.
